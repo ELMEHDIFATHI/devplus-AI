@@ -1,0 +1,37 @@
+# Maven target directories
+**/target/
+*.jar
+*.war
+
+# Node & Frontend dependencies
+**/node_modules/
+**/dist/
+**/build/
+.eslintcache
+
+# Environment variables & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+
+# IDEs & Editors
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker & OS
+.docker/
+Thumbs.db
