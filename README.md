@@ -23,3 +23,6 @@ DevPulse AI est une plateforme d'analyse et d'assistance basés sur l'IA pour le
 * Node.js 20+
 * Docker & Docker Compose
 * Maven 3.9+
+
+### setup backend
+ *docker compose -f infrastructure/docker-compose.yml up -d
